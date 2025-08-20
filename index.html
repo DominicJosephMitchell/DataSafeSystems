@@ -91,11 +91,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
 
-    
+
     <script src="js/scripts.js"></script>
-    
-    <!-- Scroll Button-->
-    <!--<footer><a href=”#scrolltop”>
+
+    <center><button class="BackToTheTop" onclick="Return()">Return To Top!</button></center>
+    <script>
+        function Return() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+<!-- Scroll Button-->
+<!--<footer><a href=”#scrolltop”>
             <div> class=”scroll-text">top</div>
             <div> id=”scroll-arrow”></div>
         </a>
